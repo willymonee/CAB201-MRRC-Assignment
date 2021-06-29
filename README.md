@@ -12,4 +12,4 @@
 
 This was completed for a second year IT unit CAB201 in 2020. 
 
-Instructions: download the ZIP file and read the user manual. The program is to be opened in Visual Studio. 
+Instructions: download the MRRC file and read the user manual. The program is to be opened in Visual Studio. 
