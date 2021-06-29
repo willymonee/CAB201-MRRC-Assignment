@@ -1,0 +1,1085 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20200612112149
+Username: DESKTOP-IL67MJV\Will
+RunAs User: DESKTOP-IL67MJV\Will
+Configuration Name: 
+Machine: DESKTOP-IL67MJV (Microsoft Windows NT 10.0.18362.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 15092
+PSVersion: 5.1.18362.752
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.18362.752
+BuildVersion: 10.0.18362.752
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is transcript.txt
+PS E:\Documents\other\uni\Year 2\CAB201 - Programming Principles\ASSIGNMENT\MRRC\MRRC\bin\Debug> ./MRRC ..\..\..\Data\customers.csv ..\..\..\Data\fleet.csv ..\..\..\Data\rentals.csv
+### Mates-Rates Rent-a-Car Operation Menu ###
+**********************************************
+Press the ESC key at any time to exit. Press the HOME key to return to the main menu. Press the LEFT ARROW key to return to the previous menu.
+
+[ MAIN MENU ]
+
+Please enter a number from the options below OR ESC to exit:
+
+1) Customer Management
+2) Fleet Management
+3) Rental Management
+
+1
+
+[ CUSTOMER MANAGEMENT MENU ]
+
+Please enter a number from the options below or press ESC to exit or HOME key to return to main menu
+
+1) Display Customers
+2) New Customer
+3) Modify Customer
+4) Delete Customer
+
+4
+
+REMOVE CUSTOMER - or press left arrow key to return to customer management menu
+
+Select ID of customer:
+6
+
+Cannot remove customer #6 as they are currently renting a vehicle
+
+[ CUSTOMER MANAGEMENT MENU ]
+
+Please enter a number from the options below or press ESC to exit or HOME key to return to main menu
+
+1) Display Customers
+2) New Customer
+3) Modify Customer
+4) Delete Customer
+
+4
+
+REMOVE CUSTOMER - or press left arrow key to return to customer management menu
+
+Select ID of customer:
+7
+
+Successfully deleted customer #7 Mrs Emel Gabor - Gender: Female DOB: 31/03/1976
+
+[ CUSTOMER MANAGEMENT MENU ]
+
+Please enter a number from the options below or press ESC to exit or HOME key to return to main menu
+
+1) Display Customers
+2) New Customer
+3) Modify Customer
+4) Delete Customer
+
+
+Returning back to...
+### Mates-Rates Rent-a-Car Operation Menu ###
+**********************************************
+Press the ESC key at any time to exit. Press the HOME key to return to the main menu. Press the LEFT ARROW key to return to the previous menu.
+
+[ MAIN MENU ]
+
+Please enter a number from the options below OR ESC to exit:
+
+1) Customer Management
+2) Fleet Management
+3) Rental Management
+
+2
+
+[ FLEET MANAGEMENT MENU ]
+
+Please enter a number from the options below or press ESC to exit or HOME key to return to main menu
+
+1) Display Fleet
+2) New Vehicle
+3) Modify Vehicle
+4) Delete Vehicle
+
+4
+
+REMOVE VEHICLE - or press left arrow key to return to vehicle menu
+
+Select car registration:
+602vvz
+
+Vehicle 602VVZ cannot be removed as it is currently being rented
+
+[ FLEET MANAGEMENT MENU ]
+
+Please enter a number from the options below or press ESC to exit or HOME key to return to main menu
+
+1) Display Fleet
+2) New Vehicle
+3) Modify Vehicle
+4) Delete Vehicle
+
+4
+
+REMOVE VEHICLE - or press left arrow key to return to vehicle menu
+
+Select car registration:
+999AAA
+
+Successfully deleted 999AAA
+
+[ FLEET MANAGEMENT MENU ]
+
+Please enter a number from the options below or press ESC to exit or HOME key to return to main menu
+
+1) Display Fleet
+2) New Vehicle
+3) Modify Vehicle
+4) Delete Vehicle
+
+
+Returning back to...
+
+[ MAIN MENU ]
+
+Please enter a number from the options below OR ESC to exit:
+
+1) Customer Management
+2) Fleet Management
+3) Rental Management
+
+3
+
+[ RENTAL MANAGEMENT MENU ]
+
+Please enter a number from the options below or press ESC to exit or HOME key to return to main menu
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+1
+
+DISPLAYING RENTED VEHICLES
+
+Registration  Rate      ID
+_______________________________
+
+ 602VVZ      | $37.90  | 0     |
+ 677UIA      | $43.30  | 6     |
+ 471XBI      | $38.00  | 2     |
+ 851VOJ      | $37.10  | 3     |
+_______________________________
+
+[ RENTAL MANAGEMENT MENU ]
+
+Please enter a number from the options below or press ESC to exit or HOME key to return to main menu
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+3
+
+RENT VEHICLE - or press left arrow key to return to rental menu
+
+Select car registration:
+602VVZ
+602VVZ is already being rented. Please select another vehicle to rent
+Select car registration:
+993QAN
+
+Select customer to rent to:
+0
+Customer #0 is already renting a vehicle
+
+Select customer to rent to:
+1
+
+Select how many days to rent vehicle:
+3
+
+Successfully renting 993QAN to customer #1 for 3 days at a total cost of $113.40
+
+[ RENTAL MANAGEMENT MENU ]
+
+Please enter a number from the options below or press ESC to exit or HOME key to return to main menu
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+1
+
+DISPLAYING RENTED VEHICLES
+
+Registration  Rate      ID
+_______________________________
+
+ 602VVZ      | $37.90  | 0     |
+ 677UIA      | $43.30  | 6     |
+ 471XBI      | $38.00  | 2     |
+ 851VOJ      | $37.10  | 3     |
+ 993QAN      | $37.80  | 1     |
+_______________________________
+
+[ RENTAL MANAGEMENT MENU ]
+
+Please enter a number from the options below or press ESC to exit or HOME key to return to main menu
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+4
+
+RETURN VEHICLE - or press left arrow key to return to rental menu
+
+Select car registration:
+851VOJ
+
+Successfully returned 851VOJ from customer #3
+
+[ RENTAL MANAGEMENT MENU ]
+
+Please enter a number from the options below or press ESC to exit or HOME key to return to main menu
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+3
+
+RENT VEHICLE - or press left arrow key to return to rental menu
+
+Select car registration:
+851VOJ
+
+Select customer to rent to:
+3
+
+Select how many days to rent vehicle:
+2
+
+Successfully renting 851VOJ to customer #3 for 2 days at a total cost of $74.20
+
+[ RENTAL MANAGEMENT MENU ]
+
+Please enter a number from the options below or press ESC to exit or HOME key to return to main menu
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+4
+
+RETURN VEHICLE - or press left arrow key to return to rental menu
+
+Select car registration:
+602VVZ
+
+Successfully returned 602VVZ from customer #0
+
+[ RENTAL MANAGEMENT MENU ]
+
+Please enter a number from the options below or press ESC to exit or HOME key to return to main menu
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+3
+
+RENT VEHICLE - or press left arrow key to return to rental menu
+
+Select car registration:
+602VVZ
+
+Select customer to rent to:
+0
+
+Select how many days to rent vehicle:
+3
+
+Successfully renting 602VVZ to customer #0 for 3 days at a total cost of $113.70
+
+[ RENTAL MANAGEMENT MENU ]
+
+Please enter a number from the options below or press ESC to exit or HOME key to return to main menu
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+4
+
+RETURN VEHICLE - or press left arrow key to return to rental menu
+
+Select car registration:
+509XRK
+Vehicle is not currently being rented
+Select car registration:
+993QAN
+
+Successfully returned 993QAN from customer #1
+
+[ RENTAL MANAGEMENT MENU ]
+
+Please enter a number from the options below or press ESC to exit or HOME key to return to main menu
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+1
+
+DISPLAYING RENTED VEHICLES
+
+Registration  Rate      ID
+_______________________________
+
+ 602VVZ      | $37.90  | 0     |
+ 677UIA      | $43.30  | 6     |
+ 471XBI      | $38.00  | 2     |
+ 851VOJ      | $37.10  | 3     |
+_______________________________
+
+[ RENTAL MANAGEMENT MENU ]
+
+Please enter a number from the options below or press ESC to exit or HOME key to return to main menu
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+2
+
+SEARCH VEHICLES - or press left arrow key to return to rental menu
+
+Choose precedence:
+1) AND and OR have equal precedence
+2) AND has higher precedence over OR
+
+1
+
+Enter query:
+red
+
+Search results: 993QAN
+
+[ RENTAL MANAGEMENT MENU ]
+
+Please enter a number from the options below or press ESC to exit or HOME key to return to main menu
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+2
+
+SEARCH VEHICLES - or press left arrow key to return to rental menu
+
+Choose precedence:
+1) AND and OR have equal precedence
+2) AND has higher precedence over OR
+
+1
+
+Enter query:
+family
+
+Search results: 519YUY
+
+[ RENTAL MANAGEMENT MENU ]
+
+Please enter a number from the options below or press ESC to exit or HOME key to return to main menu
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+2
+
+SEARCH VEHICLES - or press left arrow key to return to rental menu
+
+Choose precedence:
+1) AND and OR have equal precedence
+2) AND has higher precedence over OR
+
+1
+
+Enter query:
+8-seater
+
+The attribute 8-SEATER is not found in the unrented vehicle's set
+
+No results returned
+
+[ RENTAL MANAGEMENT MENU ]
+
+Please enter a number from the options below or press ESC to exit or HOME key to return to main menu
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+2
+
+SEARCH VEHICLES - or press left arrow key to return to rental menu
+
+Choose precedence:
+1) AND and OR have equal precedence
+2) AND has higher precedence over OR
+
+1
+
+Enter query:
+commercial or diesel
+
+Search results: 509XRK, 519YUY, 993QAN, 682GWJ
+
+[ RENTAL MANAGEMENT MENU ]
+
+Please enter a number from the options below or press ESC to exit or HOME key to return to main menu
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+2
+
+SEARCH VEHICLES - or press left arrow key to return to rental menu
+
+Choose precedence:
+1) AND and OR have equal precedence
+2) AND has higher precedence over OR
+
+1
+
+Enter query:
+red or blue
+
+Search results: 509XRK, 682GWJ, 519YUY, 993QAN
+
+[ RENTAL MANAGEMENT MENU ]
+
+Please enter a number from the options below or press ESC to exit or HOME key to return to main menu
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+2
+
+SEARCH VEHICLES - or press left arrow key to return to rental menu
+
+Choose precedence:
+1) AND and OR have equal precedence
+2) AND has higher precedence over OR
+
+1
+
+Enter query:
+gps or family
+
+Search results: 519YUY, 509XRK
+
+[ RENTAL MANAGEMENT MENU ]
+
+Please enter a number from the options below or press ESC to exit or HOME key to return to main menu
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+2
+
+SEARCH VEHICLES - or press left arrow key to return to rental menu
+
+Choose precedence:
+1) AND and OR have equal precedence
+2) AND has higher precedence over OR
+
+1
+
+Enter query:
+family and luxury
+
+The attribute LUXURY is not found in the unrented vehicle's set
+
+No results returned
+
+[ RENTAL MANAGEMENT MENU ]
+
+Please enter a number from the options below or press ESC to exit or HOME key to return to main menu
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+2
+
+SEARCH VEHICLES - or press left arrow key to return to rental menu
+
+Choose precedence:
+1) AND and OR have equal precedence
+2) AND has higher precedence over OR
+
+1
+
+Enter query:
+red and blue
+
+No results returned
+
+[ RENTAL MANAGEMENT MENU ]
+
+Please enter a number from the options below or press ESC to exit or HOME key to return to main menu
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+2
+
+SEARCH VEHICLES - or press left arrow key to return to rental menu
+
+Choose precedence:
+1) AND and OR have equal precedence
+2) AND has higher precedence over OR
+
+1
+
+Enter query:
+gps and family
+
+Search results: 519YUY
+
+[ RENTAL MANAGEMENT MENU ]
+
+Please enter a number from the options below or press ESC to exit or HOME key to return to main menu
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+2
+
+SEARCH VEHICLES - or press left arrow key to return to rental menu
+
+Choose precedence:
+1) AND and OR have equal precedence
+2) AND has higher precedence over OR
+
+1
+
+Enter query:
+commercial and blue
+
+Search results: 509XRK, 682GWJ
+
+[ RENTAL MANAGEMENT MENU ]
+
+Please enter a number from the options below or press ESC to exit or HOME key to return to main menu
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+2
+
+SEARCH VEHICLES - or press left arrow key to return to rental menu
+
+Choose precedence:
+1) AND and OR have equal precedence
+2) AND has higher precedence over OR
+
+1
+
+Enter query:
+family or luxury or red
+
+The attribute LUXURY is not found in the unrented vehicle's set
+
+Search results: 993QAN, 519YUY
+
+[ RENTAL MANAGEMENT MENU ]
+
+Please enter a number from the options below or press ESC to exit or HOME key to return to main menu
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+2
+
+SEARCH VEHICLES - or press left arrow key to return to rental menu
+
+Choose precedence:
+1) AND and OR have equal precedence
+2) AND has higher precedence over OR
+
+1
+
+Enter query:
+dodge or audi or "3000 GT VR-4"
+
+Search results: 993QAN, 682GWJ, 509XRK, 519YUY
+
+[ RENTAL MANAGEMENT MENU ]
+
+Please enter a number from the options below or press ESC to exit or HOME key to return to main menu
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+2
+
+SEARCH VEHICLES - or press left arrow key to return to rental menu
+
+Choose precedence:
+1) AND and OR have equal precedence
+2) AND has higher precedence over OR
+
+1
+
+Enter query:
+gps or family or luxury or 4-seater
+
+The attribute LUXURY is not found in the unrented vehicle's set
+
+Search results: 509XRK, 519YUY
+
+[ RENTAL MANAGEMENT MENU ]
+
+Please enter a number from the options below or press ESC to exit or HOME key to return to main menu
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+2
+
+SEARCH VEHICLES - or press left arrow key to return to rental menu
+
+Choose precedence:
+1) AND and OR have equal precedence
+2) AND has higher precedence over OR
+
+1
+
+Enter query:
+"no sunroof" and blue and petrol
+
+Search results: 682GWJ
+
+[ RENTAL MANAGEMENT MENU ]
+
+Please enter a number from the options below or press ESC to exit or HOME key to return to main menu
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+2
+
+SEARCH VEHICLES - or press left arrow key to return to rental menu
+
+Choose precedence:
+1) AND and OR have equal precedence
+2) AND has higher precedence over OR
+
+1
+
+Enter query:
+4-seater and family and gps
+
+No results returned
+
+[ RENTAL MANAGEMENT MENU ]
+
+Please enter a number from the options below or press ESC to exit or HOME key to return to main menu
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+2
+
+SEARCH VEHICLES - or press left arrow key to return to rental menu
+
+Choose precedence:
+1) AND and OR have equal precedence
+2) AND has higher precedence over OR
+
+1
+
+Enter query:
+commercial and manual and petrol and "no gps"
+
+Search results: 993QAN, 682GWJ
+
+[ RENTAL MANAGEMENT MENU ]
+
+Please enter a number from the options below or press ESC to exit or HOME key to return to main menu
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+2
+
+SEARCH VEHICLES - or press left arrow key to return to rental menu
+
+Choose precedence:
+1) AND and OR have equal precedence
+2) AND has higher precedence over OR
+
+1
+
+Enter query:
+commericial or family and diesel
+
+The attribute COMMERICIAL is not found in the unrented vehicle's set
+
+Search results: 519YUY
+
+[ RENTAL MANAGEMENT MENU ]
+
+Please enter a number from the options below or press ESC to exit or HOME key to return to main menu
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+2
+
+SEARCH VEHICLES - or press left arrow key to return to rental menu
+
+Choose precedence:
+1) AND and OR have equal precedence
+2) AND has higher precedence over OR
+
+1
+
+Enter query:
+red or blue or green and gps
+
+The attribute GREEN is not found in the unrented vehicle's set
+
+Search results: 509XRK, 519YUY
+
+[ RENTAL MANAGEMENT MENU ]
+
+Please enter a number from the options below or press ESC to exit or HOME key to return to main menu
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+2
+
+SEARCH VEHICLES - or press left arrow key to return to rental menu
+
+Choose precedence:
+1) AND and OR have equal precedence
+2) AND has higher precedence over OR
+
+1
+
+Enter query:
+family or commercial or economy and manual and "no gps"
+
+Search results: 169FBE, 993QAN, 682GWJ
+
+[ RENTAL MANAGEMENT MENU ]
+
+Please enter a number from the options below or press ESC to exit or HOME key to return to main menu
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+2
+
+SEARCH VEHICLES - or press left arrow key to return to rental menu
+
+Choose precedence:
+1) AND and OR have equal precedence
+2) AND has higher precedence over OR
+
+2
+
+Enter query:
+commercial or family and diesel
+
+Search results: 519YUY, 993QAN, 509XRK, 682GWJ
+
+[ RENTAL MANAGEMENT MENU ]
+
+Please enter a number from the options below or press ESC to exit or HOME key to return to main menu
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+2
+
+SEARCH VEHICLES - or press left arrow key to return to rental menu
+
+Choose precedence:
+1) AND and OR have equal precedence
+2) AND has higher precedence over OR
+
+2
+
+Enter query:
+red or blue or green and gps
+
+The attribute GREEN is not found in the unrented vehicle's set
+
+Search results: 509XRK, 682GWJ, 519YUY, 993QAN
+
+[ RENTAL MANAGEMENT MENU ]
+
+Please enter a number from the options below or press ESC to exit or HOME key to return to main menu
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+2
+
+SEARCH VEHICLES - or press left arrow key to return to rental menu
+
+Choose precedence:
+1) AND and OR have equal precedence
+2) AND has higher precedence over OR
+
+2
+
+Enter query:
+(gps or no sunroof) and (red or blue)
+
+The attribute NO is not found in the unrented vehicle's set
+
+Invalid query - Missing operator/operators either AND or OR
+
+[ RENTAL MANAGEMENT MENU ]
+
+Please enter a number from the options below or press ESC to exit or HOME key to return to main menu
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+2
+
+SEARCH VEHICLES - or press left arrow key to return to rental menu
+
+Choose precedence:
+1) AND and OR have equal precedence
+2) AND has higher precedence over OR
+
+2
+
+Enter query:
+(gps or "no sunroof") and (red or blue)
+
+Search results: 509XRK, 682GWJ, 519YUY, 993QAN
+
+[ RENTAL MANAGEMENT MENU ]
+
+Please enter a number from the options below or press ESC to exit or HOME key to return to main menu
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+2
+
+SEARCH VEHICLES - or press left arrow key to return to rental menu
+
+Choose precedence:
+1) AND and OR have equal precedence
+2) AND has higher precedence over OR
+
+2
+
+Enter query:
+((GPS and sunroof) or (red or green)) and commercial or luxury
+
+The attribute GREEN is not found in the unrented vehicle's set
+
+The attribute LUXURY is not found in the unrented vehicle's set
+
+Search results: 993QAN
+
+[ RENTAL MANAGEMENT MENU ]
+
+Please enter a number from the options below or press ESC to exit or HOME key to return to main menu
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+2
+
+SEARCH VEHICLES - or press left arrow key to return to rental menu
+
+Choose precedence:
+1) AND and OR have equal precedence
+2) AND has higher precedence over OR
+
+2
+
+Enter query:
+((GPS and sunroof) or (red or blue)) and commercial or black
+
+Search results: 169FBE, 993QAN, 509XRK, 682GWJ
+
+[ RENTAL MANAGEMENT MENU ]
+
+Please enter a number from the options below or press ESC to exit or HOME key to return to main menu
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+2
+
+SEARCH VEHICLES - or press left arrow key to return to rental menu
+
+Choose precedence:
+1) AND and OR have equal precedence
+2) AND has higher precedence over OR
+
+1
+
+Enter query:
+(red or blue
+
+Search failed - Missing matching right parenthesis
+
+[ RENTAL MANAGEMENT MENU ]
+
+Please enter a number from the options below or press ESC to exit or HOME key to return to main menu
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+2
+
+SEARCH VEHICLES - or press left arrow key to return to rental menu
+
+Choose precedence:
+1) AND and OR have equal precedence
+2) AND has higher precedence over OR
+
+1
+
+Enter query:
+red or "black march
+
+Invalid query - Mismatched quotation marks in query
+
+[ RENTAL MANAGEMENT MENU ]
+
+Please enter a number from the options below or press ESC to exit or HOME key to return to main menu
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+2
+
+SEARCH VEHICLES - or press left arrow key to return to rental menu
+
+Choose precedence:
+1) AND and OR have equal precedence
+2) AND has higher precedence over OR
+
+1
+
+Enter query:
+red OR
+
+Invalid query - Not enough attributes for OR to operate on
+
+[ RENTAL MANAGEMENT MENU ]
+
+Please enter a number from the options below or press ESC to exit or HOME key to return to main menu
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+2
+
+SEARCH VEHICLES - or press left arrow key to return to rental menu
+
+Choose precedence:
+1) AND and OR have equal precedence
+2) AND has higher precedence over OR
+
+1
+
+Enter query:
+red blue
+
+Invalid query - Missing operator/operators either AND or OR
+
+[ RENTAL MANAGEMENT MENU ]
+
+Please enter a number from the options below or press ESC to exit or HOME key to return to main menu
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+PS E:\Documents\other\uni\Year 2\CAB201 - Programming Principles\ASSIGNMENT\MRRC\MRRC\bin\Debug> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20200612113717
+**********************
